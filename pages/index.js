@@ -203,14 +203,14 @@ export default function Homepage() {
         <div className='bg-indigo-300 ...'>
           <img
             src='https://res.cloudinary.com/hiname/image/upload/v1641179440/bg-01_qiolog.png'
-            className='object-cover h-auto w-full ...'
+            className='object-center md:object-top ...'
           />
         </div>
       </div>
       {/* this is card */}
       <h1 style={{ textAlign: "center" }}>Why choose HiCas?</h1>
-      <div className='max-w-screen-xl mx-auto px-5 my-10 grid grid-cols-2 gap-2 md:grid-cols-5'>
-        <div className='p-2 '>
+      <div className='max-w-screen-xl mx-auto grid grid-cols-2 gap-2 md:grid-cols-5'>
+        <div className='p-1'>
           <div className=' rounded cursor-pointer h-fit shadow-md '>
             <img
               src='https://res.cloudinary.com/hiname/image/upload/v1641184228/clem-onojeghuo-47C_M0Lg2Y0-unsplash_lsukqb.jpg'
@@ -224,7 +224,7 @@ export default function Homepage() {
           </div>
         </div>
 
-        <div className='p-2 '>
+        <div className='p-1'>
           <div className=' rounded cursor-pointer h-fit shadow-md '>
             <img
               src='https://res.cloudinary.com/hiname/image/upload/v1640503676/samples/sheep.jpg'
@@ -238,7 +238,7 @@ export default function Homepage() {
           </div>
         </div>
 
-        <div className='p-2 '>
+        <div className='p-1'>
           <div className=' rounded cursor-pointer h-fit shadow-md '>
             <img
               src='https://res.cloudinary.com/hiname/image/upload/v1640503676/samples/sheep.jpg'
@@ -252,7 +252,7 @@ export default function Homepage() {
           </div>
         </div>
 
-        <div className='p-2 '>
+        <div className='p-1'>
           <div className=' rounded cursor-pointer h-fit shadow-md '>
             <img
               src='https://res.cloudinary.com/hiname/image/upload/v1640503676/samples/sheep.jpg'
@@ -266,7 +266,7 @@ export default function Homepage() {
           </div>
         </div>
 
-        <div className='p-2 '>
+        <div className='p-1'>
           <div className=' rounded cursor-pointer h-fit shadow-md '>
             <img
               src='https://res.cloudinary.com/hiname/image/upload/v1640503676/samples/sheep.jpg'
@@ -490,16 +490,16 @@ export default function Homepage() {
         </div>
       </div>
       {/* info */}
-      <div className='max-w-screen-2xl mx-auto bg-[#0E0E0E]'>
-        <div className='max-w-7xl mx-auto pt-20 pb-20'>
-          <div className='border-b-2 border-[#F58220] pb-2'>
+      <div className='max-w-screen-2xl mx-auto bg-[#0E0E0E] '>
+        <div className='max-w-7xl mx-auto pt-10 pb-10'>
+          <div className='border-b-2 border-[#F58220] pb-2 pl-5'>
             <img
               src='https://res.cloudinary.com/hiname/image/upload/v1641200298/sikl_1_rqjvpa.png'
               className='h-8 w-auto'
             />
           </div>
-          <div className='flex pt-2'>
-            <div className='w-2/5'>
+          <div className='flex pt-2 grid grid-cols-1 md:grid-cols-2'>
+            <div className='w-full m-auto pl-5'>
               <p className='text-[#F58220] text-lg uppercase antialiased font-semibold tracking-tighter '>
                 Người việt sản phẩm việt, chất lượng quốc tế
               </p>
@@ -511,23 +511,28 @@ export default function Homepage() {
               </p>
             </div>
 
-            <div className='w-3/5 '>
+            <div className='w-full'>
               <div className='flex justify-evenly'>
                 <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
                   Trang chủ
                 </p>
+
                 <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
                   Giới thiệu
                 </p>
+
                 <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
                   Sản phẩm
                 </p>
+
                 <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
                   Dịch vụ
                 </p>
+
                 <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
                   Tin tức
                 </p>
+
                 <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
                   Liên hệ
                 </p>
