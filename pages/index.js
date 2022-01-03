@@ -198,9 +198,18 @@ export default function Homepage() {
         </Transition>
       </Popover>
 
+      {/* background */}
+      <div className='max-w-screen-2xl mx-auto'>
+        <div class='bg-indigo-300 ...'>
+          <img
+            src='https://res.cloudinary.com/hiname/image/upload/v1641179440/bg-01_qiolog.png'
+            class='object-cover h-auto w-full ...'
+          />
+        </div>
+      </div>
       {/* this is card */}
-      <h1>this is card</h1>
-      <div className='max-w-screen-2xl mx-auto px-5 my-10 sm:grid-cols-2 md:grid-cols-5  grid-cols-2'>
+      <h1 style={{ textAlign: "center" }}>this is card</h1>
+      <div className='max-w-screen-2xl mx-auto px-5 my-10 sm:grid md:grid-cols-5  grid-cols-2'>
         <div className='p-2 '>
           <div className=' rounded cursor-pointer h-fit shadow-md '>
             <img
@@ -272,7 +281,7 @@ export default function Homepage() {
         </div>
       </div>
       {/* this is card media */}
-      <h1>this is card media</h1>
+      <h1 style={{ textAlign: "center" }}>this is media card</h1>
 
       <div className='max-w-screen-2xl mx-auto px-5 my-10 sm:grid md:grid-cols-4  grid-cols-2'>
         <div className='p-2 '>
