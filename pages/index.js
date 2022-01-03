@@ -340,6 +340,49 @@ export default function Homepage() {
           </div>
         </div>
       </div> */}
+
+      <h1 style={{ textAlign: "center" }}>Chúng tôi cung cấp</h1>
+      <div className='max-w-screen-md mx-auto px-5 my-10'>
+        <div className="bg-[url('https://res.cloudinary.com/hiname/image/upload/v1641192534/1_jpaasi.png')] bg-cover bg-no-repeat ">
+          <div className='max-w-screen-lg h-96'>
+            <p className='max-w-xs m-auto text-center p-8 text-lg font-medium font-sans text-[#F58220] uppercase leading-6'>
+              Dịch vụ tư vấn và áp dụng công nghệ
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* this treee */}
+      <div className='max-w-screen-2xl mx-auto'>
+        <div className='bg-[#F2F2F2] ...'>
+          <img
+            src='https://res.cloudinary.com/hiname/image/upload/v1641194599/1_puauzm.png'
+            className='object-cover m-auto ...'
+          />
+        </div>
+      </div>
+      {/* cicle card */}
+      <div className='max-w-screen-xl m-auto px-5 my-10 grid grid-cols-2 gap-2 md:grid-cols-4'>
+        <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
+          <span className='absolute text-8xl left-0 top-0 text-purple-800'></span>
+          PIT
+        </div>
+        <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
+          <span className='absolute text-8xl left-0 top-0 text-purple-800'></span>
+          EPU
+        </div>
+
+        <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
+          <span className='absolute text-8xl left-0 top-0 text-purple-800'></span>
+          STR
+        </div>
+
+        <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
+          <span className='absolute text-8xl left-0 top-0 text-purple-800'></span>
+          PID
+        </div>
+      </div>
+      {/* tin tuc */}
       <h1 style={{ textAlign: "center" }}>Tin Tức</h1>
 
       <div className='max-w-screen-xl mx-auto px-5 my-10 grid grid-cols-2 gap-2 md:grid-cols-4'>
