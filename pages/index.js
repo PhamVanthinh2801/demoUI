@@ -11,6 +11,7 @@ const { Search } = Input;
 export default function Homepage() {
   return (
     <>
+      {/* header */}
       <Popover className='relative bg-white'>
         <div className='h-16 max-w-7xl mx-auto px-4 sm:px-6 border-b-2 border-gray-200'>
           <div className='h-full flex justify-between items-center md:justify-start md:space-x-10'>
@@ -208,13 +209,41 @@ export default function Homepage() {
         </div>
       </div>
       {/* this is card */}
-      <h1 style={{ textAlign: "center" }}>this is card</h1>
-      <div className='max-w-screen-2xl mx-auto px-5 my-10 sm:grid md:grid-cols-5  grid-cols-2'>
+      <h1 style={{ textAlign: "center" }}>Why choose HiCas?</h1>
+      <div className='max-w-screen-xl mx-auto px-5 my-10 grid grid-cols-2 gap-2 md:grid-cols-5'>
+        <div className='p-2 '>
+          <div className=' rounded cursor-pointer h-fit shadow-md '>
+            <img
+              src='https://res.cloudinary.com/hiname/image/upload/v1641184228/clem-onojeghuo-47C_M0Lg2Y0-unsplash_lsukqb.jpg'
+              className='rounded object-cover h-auto w-auto'
+            />
+            <div className='bg-white w-5/6 m-auto relative bottom-5 rounded'>
+              <p className='text-sm antialiased font-medium tracking-tight text-center text-black uppercase pt-3'>
+                Đội ngũ chuyên nghiệp
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className='p-2 '>
           <div className=' rounded cursor-pointer h-fit shadow-md '>
             <img
               src='https://res.cloudinary.com/hiname/image/upload/v1640503676/samples/sheep.jpg'
-              className='rounded'
+              className='rounded object-cover h-auto w-auto'
+            />
+            <div className='bg-white w-5/6 m-auto relative bottom-5 rounded'>
+              <p className='text-sm antialiased font-medium tracking-tight text-center text-black uppercase pt-3'>
+                Kinh nghiệm lâu năm
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className='p-2 '>
+          <div className=' rounded cursor-pointer h-fit shadow-md '>
+            <img
+              src='https://res.cloudinary.com/hiname/image/upload/v1640503676/samples/sheep.jpg'
+              className='rounded object-cover h-auto w-auto'
             />
             <div className='bg-white w-5/6 m-auto relative bottom-5 rounded'>
               <p className='text-sm antialiased font-medium tracking-tight text-center text-black uppercase pt-3'>
@@ -228,7 +257,7 @@ export default function Homepage() {
           <div className=' rounded cursor-pointer h-fit shadow-md '>
             <img
               src='https://res.cloudinary.com/hiname/image/upload/v1640503676/samples/sheep.jpg'
-              className='rounded'
+              className='rounded object-cover h-auto w-auto'
             />
             <div className='bg-white w-5/6 m-auto relative bottom-5 rounded'>
               <p className='text-sm antialiased font-medium tracking-tight text-center text-black uppercase pt-3'>
@@ -242,35 +271,7 @@ export default function Homepage() {
           <div className=' rounded cursor-pointer h-fit shadow-md '>
             <img
               src='https://res.cloudinary.com/hiname/image/upload/v1640503676/samples/sheep.jpg'
-              className='rounded'
-            />
-            <div className='bg-white w-5/6 m-auto relative bottom-5 rounded'>
-              <p className='text-sm antialiased font-medium tracking-tight text-center text-black uppercase pt-3'>
-                this is title
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className='p-2 '>
-          <div className=' rounded cursor-pointer h-fit shadow-md '>
-            <img
-              src='https://res.cloudinary.com/hiname/image/upload/v1640503676/samples/sheep.jpg'
-              className='rounded'
-            />
-            <div className='bg-white w-5/6 m-auto relative bottom-5 rounded'>
-              <p className='text-sm antialiased font-medium tracking-tight text-center text-black uppercase pt-3'>
-                this is title
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className='p-2 '>
-          <div className=' rounded cursor-pointer h-fit shadow-md '>
-            <img
-              src='https://res.cloudinary.com/hiname/image/upload/v1640503676/samples/sheep.jpg'
-              className='rounded'
+              className='rounded object-cover h-auto w-auto'
             />
             <div className='bg-white w-5/6 m-auto relative bottom-5 rounded'>
               <p className='text-sm antialiased font-medium tracking-tight text-center text-black uppercase pt-3'>
@@ -281,14 +282,13 @@ export default function Homepage() {
         </div>
       </div>
       {/* this is card media */}
-      <h1 style={{ textAlign: "center" }}>this is media card</h1>
-
-      <div className='max-w-screen-2xl mx-auto px-5 my-10 sm:grid md:grid-cols-4  grid-cols-2'>
+      {/* <h1 style={{ textAlign: "center" }}>this is media card</h1>
+      <div className='max-w-screen-xl mx-auto px-5 my-10 grid grid-cols-2 gap-2 md:grid-cols-4'>
         <div className='p-2 '>
           <div className=' rounded cursor-pointer h-fit shadow-md '>
             <img
               src='https://res.cloudinary.com/hiname/image/upload/v1640503676/samples/sheep.jpg'
-              className='rounded'
+               className='rounded object-cover h-auto w-auto'
             />
             <div className='bg-white w-5/6 m-auto rounded'>
               <p className='text-sm antialiased font-medium tracking-tight text-center text-black uppercase p-3'>
@@ -337,6 +337,65 @@ export default function Homepage() {
                 this is title
               </p>
             </div>
+          </div>
+        </div>
+      </div> */}
+      <h1 style={{ textAlign: "center" }}>Tin Tức</h1>
+
+      <div className='max-w-screen-xl mx-auto px-5 my-10 grid grid-cols-2 gap-2 md:grid-cols-4'>
+        <div className='p-2'>
+          <div className='shadow-md'>
+            <img
+              src='https://res.cloudinary.com/hiname/image/upload/v1640929611/sample.jpg'
+              className='rounded object-cover h-auto w-auto'
+            />
+            <p className='p-2'>
+              Triển khai dự án đầu tháng 1 do dịch bệnh covid,chúng tôi xin
+              thông báo
+            </p>
+            <p className='pr-2 pb-2 text-right cursor-pointer'>Xem thêm</p>
+          </div>
+        </div>
+
+        <div className='p-2'>
+          <div className='shadow-md'>
+            <img
+              src='https://res.cloudinary.com/hiname/image/upload/v1640929611/sample.jpg'
+              className='rounded object-cover h-auto w-auto'
+            />
+            <p className='p-2'>
+              Triển khai dự án đầu tháng 1 do dịch bệnh covid,chúng tôi xin
+              thông báo
+            </p>
+            <p className='pr-2 pb-2 text-right cursor-pointer'>Xem thêm</p>
+          </div>
+        </div>
+
+        <div className='p-2'>
+          <div className='shadow-md'>
+            <img
+              src='https://res.cloudinary.com/hiname/image/upload/v1640929611/sample.jpg'
+              className='rounded object-cover h-auto w-auto'
+            />
+            <p className='p-2'>
+              Triển khai dự án đầu tháng 1 do dịch bệnh covid,chúng tôi xin
+              thông báo
+            </p>
+            <p className='pr-2 pb-2 text-right cursor-pointer'>Xem thêm</p>
+          </div>
+        </div>
+
+        <div className='p-2'>
+          <div className='shadow-md'>
+            <img
+              src='https://res.cloudinary.com/hiname/image/upload/v1640929611/sample.jpg'
+              className='rounded object-cover h-auto w-auto'
+            />
+            <p className='p-2'>
+              Triển khai dự án đầu tháng 1 do dịch bệnh covid,chúng tôi xin
+              thông báo
+            </p>
+            <p className='pr-2 pb-2 text-right cursor-pointer'>Xem thêm</p>
           </div>
         </div>
       </div>
