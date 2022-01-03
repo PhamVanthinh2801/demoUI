@@ -200,10 +200,10 @@ export default function Homepage() {
 
       {/* background */}
       <div className='max-w-screen-2xl mx-auto'>
-        <div class='bg-indigo-300 ...'>
+        <div className='bg-indigo-300 ...'>
           <img
             src='https://res.cloudinary.com/hiname/image/upload/v1641179440/bg-01_qiolog.png'
-            class='object-cover h-auto w-full ...'
+            className='object-cover h-auto w-full ...'
           />
         </div>
       </div>
