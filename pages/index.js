@@ -200,7 +200,7 @@ export default function Homepage() {
 
       {/* this is card */}
       <h1>this is card</h1>
-      <div className='max-w-screen-2xl mx-auto px-5 my-10 sm:grid md:grid-cols-5  grid-cols-2'>
+      <div className='max-w-screen-2xl mx-auto px-5 my-10 sm:grid-cols-2 md:grid-cols-5  grid-cols-2'>
         <div className='p-2 '>
           <div className=' rounded cursor-pointer h-fit shadow-md '>
             <img
