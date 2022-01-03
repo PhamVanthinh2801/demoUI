@@ -4,7 +4,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import "antd/dist/antd.css";
 import { Input, Space } from "antd";
-import Image from "next/image";
+import { CaretRightOutlined, TwitterOutlined } from "@ant-design/icons";
 
 const { Search } = Input;
 
@@ -198,7 +198,6 @@ export default function Homepage() {
           </Popover.Panel>
         </Transition>
       </Popover>
-
       {/* background */}
       <div className='max-w-screen-2xl mx-auto'>
         <div className='bg-indigo-300 ...'>
@@ -340,7 +339,6 @@ export default function Homepage() {
           </div>
         </div>
       </div> */}
-
       <h1 style={{ textAlign: "center" }}>Chúng tôi cung cấp</h1>
       <div className='max-w-screen-md mx-auto px-5 my-10'>
         <div className="bg-[url('https://res.cloudinary.com/hiname/image/upload/v1641192534/1_jpaasi.png')] bg-cover bg-no-repeat ">
@@ -351,7 +349,6 @@ export default function Homepage() {
           </div>
         </div>
       </div>
-
       {/* this treee */}
       <div className='max-w-screen-2xl mx-auto'>
         <div className='bg-[#F2F2F2] ...'>
@@ -363,28 +360,60 @@ export default function Homepage() {
       </div>
       {/* cicle card */}
       <div className='max-w-screen-xl m-auto px-5 my-10 grid grid-cols-2 gap-2 md:grid-cols-4'>
-        <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
-          <span className='absolute text-8xl left-0 top-0 text-purple-800'></span>
-          PIT
+        <div>
+          <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
+            <p className='text-5xl leading-10 font-bold text-[#F58220] pt-10'>
+              PID
+            </p>
+          </div>
+          <p className='text-center text-[#707070] font-sans text-base font-medium'>
+            CADWorx Plant
+          </p>
         </div>
-        <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
-          <span className='absolute text-8xl left-0 top-0 text-purple-800'></span>
-          EPU
+        <div>
+          <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
+            <p className='text-5xl leading-10 font-bold text-[#F58220] pt-10'>
+              PID
+            </p>
+          </div>
+          <p className='text-center text-[#707070] font-sans text-base font-medium'>
+            CADWorx Plant
+          </p>
         </div>
 
-        <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
-          <span className='absolute text-8xl left-0 top-0 text-purple-800'></span>
-          STR
+        <div>
+          <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
+            <p className='text-5xl leading-10 font-bold text-[#F58220] pt-10'>
+              PID
+            </p>
+          </div>
+          <p className='text-center text-[#707070] font-sans text-base font-medium'>
+            CADWorx Plant
+          </p>
         </div>
 
-        <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
-          <span className='absolute text-8xl left-0 top-0 text-purple-800'></span>
-          PID
+        <div>
+          <div className='m-auto relative w-36 h-36 bg-purple-50 rounded-full flex justify-center items-center text-center p-5 shadow-md'>
+            <p className='text-5xl leading-10 font-bold text-[#F58220] pt-10'>
+              PID
+            </p>
+          </div>
+          <p className='text-center text-[#707070] font-sans text-base font-medium'>
+            CADWorx Plant
+          </p>
+        </div>
+      </div>
+      {/* bg */}
+      <div className='max-w-screen-2xl mx-auto'>
+        <div className='bg-indigo-300 ...'>
+          <img
+            src='https://res.cloudinary.com/hiname/image/upload/v1641199179/sjm_1_d6imu2.png'
+            className='object-cover h-auto w-full ...'
+          />
         </div>
       </div>
       {/* tin tuc */}
       <h1 style={{ textAlign: "center" }}>Tin Tức</h1>
-
       <div className='max-w-screen-xl mx-auto px-5 my-10 grid grid-cols-2 gap-2 md:grid-cols-4'>
         <div className='p-2'>
           <div className='shadow-md'>
@@ -441,6 +470,93 @@ export default function Homepage() {
             <p className='pr-2 pb-2 text-right cursor-pointer'>Xem thêm</p>
           </div>
         </div>
+      </div>
+      {/* this is bottom */}
+      <div className='max-w-screen-2xl mx-auto'>
+        <div className='bg-indigo-300 ...'>
+          <img
+            src='https://res.cloudinary.com/hiname/image/upload/v1641199700/1_ib4hxm.png'
+            className='object-cover h-auto w-full ...'
+          />
+        </div>
+      </div>
+      {/* map */}
+      <div className='max-w-screen-2xl mx-auto'>
+        <div className='bg-indigo-300 ...'>
+          <img
+            src='https://res.cloudinary.com/hiname/image/upload/v1641199867/shj_1_xdt5ae.png'
+            className='object-cover h-auto w-full ...'
+          />
+        </div>
+      </div>
+      {/* info */}
+      <div className='max-w-screen-2xl mx-auto bg-[#0E0E0E]'>
+        <div className='max-w-7xl mx-auto pt-20 pb-20'>
+          <div className='border-b-2 border-[#F58220] pb-2'>
+            <img
+              src='https://res.cloudinary.com/hiname/image/upload/v1641200298/sikl_1_rqjvpa.png'
+              className='h-8 w-auto'
+            />
+          </div>
+          <div className='flex pt-2'>
+            <div className='w-2/5'>
+              <p className='text-[#F58220] text-lg uppercase antialiased font-semibold tracking-tighter '>
+                Người việt sản phẩm việt, chất lượng quốc tế
+              </p>
+              <span className='text-[#F58220] text-base uppercase antialiased font-semibold tracking-tighter'>
+                Công ty TNHH phần mềm Hicas
+              </span>
+              <p className='text-[#ffffff]'>
+                Trụ sở chính: Tầng 2 tòa nhà Technosoft
+              </p>
+            </div>
+
+            <div className='w-3/5 '>
+              <div className='flex justify-evenly'>
+                <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+                  Trang chủ
+                </p>
+                <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+                  Giới thiệu
+                </p>
+                <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+                  Sản phẩm
+                </p>
+                <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+                  Dịch vụ
+                </p>
+                <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+                  Tin tức
+                </p>
+                <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+                  Liên hệ
+                </p>
+              </div>
+              <div className='flex justify-center '>
+                <div className='m-2 bg-[#F58220] h-8 w-8 cu cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+                  <p className='text-[black] text-center  font-extrabold text-2xl '>
+                    f
+                  </p>
+                </div>
+                <div className='m-2 bg-[#F58220] h-8 w-8 cu cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+                  <div className=' flex justify-center pt-1'>
+                    <CaretRightOutlined className='text-center font-extrabold text-2xl' />
+                  </div>
+                </div>
+                <div className='m-2 bg-[#F58220] h-8 w-8 cu cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
+                  <p className='text-[black] text-center  font-extrabold text-2xl '>
+                    <div className=' flex justify-center pt-1'>
+                      <TwitterOutlined className='text-center font-extrabold text-2xl' />
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p className='text-[#F58220] text-center pb-5'>
+          © Bản quyền thuộc về Công ty TNHH phần mềm HiCAS | Cung cấp bởi HiCAS
+        </p>
       </div>
     </>
   );
