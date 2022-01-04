@@ -511,8 +511,8 @@ export default function Homepage() {
               </p>
             </div>
 
-            <div className='w-full'>
-              <div className='flex justify-evenly'>
+            <div className='w-full p-5'>
+              <div className='flex text-2xl whitespace-nowrap space-x-10 sm:space-x-10 overflow-x-scroll md:scrollbar-hide'>
                 <p className='text-[#F58220] text-base cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300'>
                   Trang chủ
                 </p>
@@ -559,7 +559,7 @@ export default function Homepage() {
             </div>
           </div>
         </div>
-        <p className='text-[#F58220] text-center pb-5'>
+        <p className='text-[#F58220] text-center pb-5 pl-2 pr-2'>
           © Bản quyền thuộc về Công ty TNHH phần mềm HiCAS | Cung cấp bởi HiCAS
         </p>
       </div>
